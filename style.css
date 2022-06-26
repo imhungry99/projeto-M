@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+.textinho {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textinho button {
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: blueviolet;
+    background-color: violet;
+    align-items: center;
+}
